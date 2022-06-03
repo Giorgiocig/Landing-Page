@@ -1,0 +1,20 @@
+// config files and helpers
+//vendor
+//base styles
+//layout
+//components
+@use "../sass/abstracts/color.scss" as c;
+@use "../sass/vendor/normalize.scss";
+@use "../sass/layout/grid.scss";
+@use "../sass/abstracts/type.scss" as t;
+@use "../sass/base/base.scss" as b;
+@use "../sass/layout/hero.scss" as her;
+@use "../sass/layout/header.scss" as head;
+
+@use "../sass/base/typography.scss" as tg;
+@use "../sass/components/buttons.scss";
+@use "../sass/layout/nav.scss" as *;
+@use "../sass/layout/home-sales-points.scss";
+@use "../sass/layout/hero-promo.scss";
+@use "../sass/components/CTA.scss";
+@use "../sass/layout/footer.scss";

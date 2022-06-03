@@ -1,0 +1,46 @@
+footer {
+  background-color: #444;
+  color: white;
+  padding: 5em 0;
+  position: relative;
+}
+footer::before {
+  background-image: url(../../img/logo.svg);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.05;
+}
+footer a {
+  color: white;
+}
+footer .container--foter {
+  max-width: 25em;
+}
+
+.social-links {
+  display: flex;
+  font-size: 3rem;
+  justify-content: space-around;
+  opacity: 0.8;
+  margin: 0.7em 0;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.container--footer {
+  max-width: 25em;
+}
+
+/*# sourceMappingURL=footer.css.map */

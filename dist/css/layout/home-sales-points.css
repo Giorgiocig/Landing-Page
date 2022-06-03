@@ -1,0 +1,25 @@
+.sales-points {
+  padding: 10vh 0 0;
+}
+
+.sales-point {
+  margin-bottom: 2.5em;
+}
+.sales-point:first-of-type {
+  margin-top: 1.5em;
+}
+.sales-point:not(:last-child) {
+  margin-bottom: 0;
+}
+@media (min-width: 725px) {
+  .sales-point:not(:last-child):first-of-type {
+    margin-top: 0;
+  }
+}
+@media (max-width: 495px) {
+  .sales-point {
+    padding-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=home-sales-points.css.map */

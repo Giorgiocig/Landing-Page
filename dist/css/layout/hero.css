@@ -1,0 +1,23 @@
+.hero {
+  background: linear-gradient(to right, #048ca8, #16db93);
+  color: white;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  text-align: center;
+}
+@media (min-width: 725px) {
+  .hero {
+    text-align: left;
+    padding-bottom: 0;
+    height: 80vmin;
+    min-height: 725px;
+  }
+}
+
+@media (min-width: 725px) {
+  .hero-text {
+    margin-top: 10vmax;
+  }
+}
+
+/*# sourceMappingURL=hero.css.map */

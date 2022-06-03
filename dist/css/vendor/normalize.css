@@ -1,0 +1,13 @@
+/*the mixin will change the font where it will be used. */
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-weight: 400;
+  line-height: 1.6;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*we used mixin. With it we can just change font normal variable to change some parameters so we don tneed to change them manually*/
+
+/*# sourceMappingURL=normalize.css.map */

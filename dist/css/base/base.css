@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #048ca8;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.unstyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lg-screen {
+  display: none;
+}
+@media (min-width: 725px) {
+  .lg-screen {
+    display: block;
+  }
+}
+
+.bg-primary {
+  background-color: #048ca8;
+  color: white;
+  padding: 2.5em;
+}
+
+/*# sourceMappingURL=base.css.map */

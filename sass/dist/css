@@ -1,0 +1,86 @@
+/*the mixin will change the font where it will be used. */
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-weight: 400;
+  line-height: 1.6;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*we used mixin. With it we can just change font normal variable to change some parameters so we don tneed to change them manually*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(to right, #048ca8, #16db93);
+  color: white;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  text-align: center;
+}
+
+.hero-img {
+  display: no;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding: 1em;
+}
+
+.logo {
+  width: 25%;
+  min-width: 10rem;
+  min-width: 15rem;
+}
+
+.grid {
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 0.75em;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child {
+  margin: 0;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+/*# sourceMappingURL=css.map */
